@@ -1,0 +1,13 @@
+def handle_action(action):
+    if action == "add":
+        return {"status": "success", "message": "Action completed"}
+
+    elif action == "delete":
+        return {"status": "success", "message": "Action completed"}
+
+    else:
+        return {"status": "error", "message": "Invalid action"}
+
+
+print(handle_action("add"))
+print(handle_action("update"))

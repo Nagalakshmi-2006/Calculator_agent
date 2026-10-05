@@ -1,0 +1,25 @@
+def process_and_log():
+    log = []
+    
+    # Step 1
+    log.append("Step 1: Start process")
+    
+    # Step 2
+    result = 5 + 3
+    log.append(f"Step 2: Calculated 5 + 3 = {result}")
+    
+    # Step 3
+    result *= 2
+    log.append(f"Step 3: Multiplied result by 2 = {result}")
+    
+    # Step 4
+    log.append("Step 4: Process completed")
+    
+    return log
+
+# Get the log
+full_log = process_and_log()
+
+# Print the full log
+for entry in full_log:
+    print(entry)
